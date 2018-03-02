@@ -1,3 +1,16 @@
+/*
+ ============================================================================
+ Name        : permutations.c
+ Author      : Iain Hill
+ Version     : 1
+ Copyright   : GPL
+
+ Description : permutations of a given text string.
+
+    Copyright (C) 2018 Iain Hill. 
+
+ ============================================================================
+ */
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

@@ -1,3 +1,16 @@
+/*
+ ============================================================================
+ Name        : trie.c trie.h
+ Author      : Iain Hill
+ Version     : 1
+ Copyright   : GPL
+
+ Description : trie data structure for C programming.
+
+    Copyright (C) 2018 Iain Hill. 
+
+ ============================================================================
+ */
 typedef struct Trie {
 	int c;
 	struct Trie **next;
