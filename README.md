@@ -1,9 +1,8 @@
 ### Permutations
 
-Inspired by some university C++ lectures I wanted to write the code shown in C,
-to order my permutation output and remove any double permutations due to
-letters appering more than once in a string; I decided to use a trie data
-structure to solve this problem.
+Inspired by some university C++ lectures, I wanted to write the code shown in
+C++ in C. To order my permutation and remove any doubles from reoccuring
+letters; I have decided to write a trie data structure.
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
