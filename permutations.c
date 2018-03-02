@@ -20,7 +20,7 @@ char *extract_char(char *str, int i)
 {
 	char *pt;
 	pt = str+(++i);
-	/* Overwrites its self intentionaly, comment out for use with
+	/* Overwrites its self intentionally, comment out for use with
 	 * address sanitizer, use memmove instead */
 	memcpy(pt-1, pt, strlen(pt)+1);
 	//memmove(pt-1, pt, strlen(pt)+1);
